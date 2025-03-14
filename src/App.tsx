@@ -1,5 +1,6 @@
 import { Navbar } from './components/navBar'
 import { HeroPage } from './pages/heroPage'
+import { JourneyPage } from './pages/journey'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <HeroPage/>
+      <JourneyPage/>
     </>
   )
 }
