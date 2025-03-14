@@ -1,6 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .heroSection {
     height: 626px;
     padding: 64px 80px 96px 80px;
-    display: flex;
-    align-items: center;
+
+    .heroWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .leftSide { 
+            
+            h1 {
+                margin-bottom: 34px;
+                font-size: 48px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+            }
+
+            p {
+                font-family: "Montserrat", sans-serif;
+                color: #111827;
+                font-size: 16px;
+                line-height: 24px;
+
+            }
+
+
+            .socials {
+                margin-top: 49px;
+                display: flex;
+                gap: 8px;
+            }
+
+        }
+
+
+        .rightSide {
+            height: 466px;
+            width: 400px;
+        }
+    }
+
+
+
+}
+
+@media (min-width: 1450px) {
+    .heroSection {
+        padding: 64px 350px 96px 350px;
+    }
 }
