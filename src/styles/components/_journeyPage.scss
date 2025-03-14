@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.journeySection {
+    padding: 96px 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+
+    h1 {
+        font-size: 24px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        line-height: 32px;
+    }
+
+    p {
+        width: 717px;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+}
