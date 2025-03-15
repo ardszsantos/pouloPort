@@ -1,15 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 header {
-    height: 92px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 32px;
     font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    position: relative;
+}
 
-    nav {
-        display: flex;
-        gap: 32px;
+header p {
+    margin: 8px 0;
+}
+
+header .mobileMenuIcon {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 16px;
+    }
+
+    header .mobileMenuIcon {
+        display: block;
+    }
+
+    header nav {
+        position: fixed;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        pointer-events: none;
+        z-index: 10;
+    }
+
+    header nav.navOpen {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    header nav.navClosed {
+        opacity: 0;
+        transform: translateY(-20px);
+        pointer-events: none;
     }
 }
