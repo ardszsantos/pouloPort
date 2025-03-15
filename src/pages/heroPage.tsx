@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React  from "react";
 import music from "../assets/music.png";
 import Mmusic from "../assets/mobileMUsic.png";
 import { FaFigma, FaGithub } from "react-icons/fa";

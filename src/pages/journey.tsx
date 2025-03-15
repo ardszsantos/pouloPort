@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { TechBadge } from "../components/techBadge";
 import { SiArduino, SiCashapp, SiCplusplus, SiCss3, SiHtml5, SiMysql, SiPhp, SiPython, SiUipath, SiWordpress } from "react-icons/si";
 
