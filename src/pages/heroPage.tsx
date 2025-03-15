@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import music from "../assets/music.png";
+import Mmusic from "../assets/mobileMUsic.png";
 import { FaFigma, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -22,7 +23,8 @@ export const HeroPage: React.FC = () => {
                     </div>
                 </div>
                 <div className="rightSide">
-                    <img src={music} alt="" />
+                    <img className="desktopImg" src={music} alt="" />
+                    <img className="mobileImg"src={Mmusic} alt="" />
                 </div>
             </div>
         </section>
