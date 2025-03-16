@@ -1,5 +1,5 @@
 .journeySection {
-    padding: 96px 256px;
+    margin-top: 96px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,7 +35,14 @@
 
 @media (max-width: 768px) {
     .journeySection {
-        padding: 48px 16px;
-        overflow: hidden;
+
+        > p {
+            width: 375px;
+            
+        }
+
+        .techContainer {
+            width: 375px;
+        }
     }
 }
