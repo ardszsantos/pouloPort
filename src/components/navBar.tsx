@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
                 <a href="#">Testimonials</a>
                 <a href="#">Contact</a>
             </nav>
-            <p>Beyond the Bio</p>
+            <p className="navLastP">Beyond the Bio</p>
         </header>
     );
 };
