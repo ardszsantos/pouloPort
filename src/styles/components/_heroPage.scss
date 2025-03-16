@@ -40,10 +40,6 @@
     }
 }
 
-@media (min-width: 1450px) {
-
-}
-
 @media (max-width: 750px) {
     .heroSection {
         height: auto;
@@ -58,8 +54,9 @@
             .leftSide {
                 margin-top: 62px;
                 h1 {
-                    margin-bottom: 34px;
-                    font-size: 48px;
+                    margin-top: 8px;
+                    margin-bottom: 32px;
+                    font-size: 30px;
                     font-family: "Montserrat", sans-serif;
                     font-weight: 500;
                 }
