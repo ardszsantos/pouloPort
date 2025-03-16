@@ -12,7 +12,7 @@ export const HeroPage: React.FC = () => {
         <section className="heroSection">
             <div className="heroWrapper">
                 <div className="leftSide">
-                    <p>Heyyo, I’m </p>
+                    <p>Heyyo 🫳, I’m </p>
                     <h1>PEDRO POULOS</h1>
                     <p>A curiosity driven frontend developer with design chops.</p>
                     <p>I believe its OK to be you, You is dope!</p>
