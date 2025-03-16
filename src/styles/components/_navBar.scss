@@ -25,7 +25,12 @@ header nav {
 
 @media (max-width: 768px) {
     header {
-        padding: 16px;
+        padding: 32px;
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+        }
     }
 
     header .mobileMenuIcon {
@@ -40,7 +45,7 @@ header nav {
         background: #fff;
         flex-direction: column;
         gap: 16px;
-        padding: 16px;
+        padding: 32px;
         opacity: 0;
         transform: translateY(-20px);
         transition: opacity 0.3s ease, transform 0.3s ease;
@@ -52,11 +57,16 @@ header nav {
         opacity: 1;
         transform: translateY(0);
         pointer-events: auto;
+        padding: 32px;
     }
 
     header nav.navClosed {
         opacity: 0;
         transform: translateY(-20px);
         pointer-events: none;
+    }
+
+    .navLastP {
+        display: none;
     }
 }
