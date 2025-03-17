@@ -1,0 +1,79 @@
+.work-wrapper {
+    padding: 96px 180px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+
+    .workTitle {
+        width: 985px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        h1 {
+            color: #111827;
+            font-size: 24px;
+            font-family: "Montserrat", sans-serif;
+            line-height: 32px;
+        }
+
+        p {
+            color: #111827;
+            font-size: 18px;
+            font-family: "Montserrat", sans-serif;
+            line-height: 24px;
+        }
+    }
+
+    .card {
+
+        img {
+            width: 418px;
+            height: 320px;
+        }
+
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .secondRow {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            h2 {
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+                color: #111827;
+                line-height: 24px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                font-family: "Montserrat", sans-serif;
+                color: #111827;
+                line-height: 24px;
+                width: 418px;
+            }
+        }
+
+        .techBadges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-width: 418px; 
+        }
+        
+    }
+
+    .cardsArea {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+    }
+}
+
+
+
+
