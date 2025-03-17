@@ -1,3 +1,10 @@
+@media (min-width: 1200px) {
+    .heroSection {
+        height: 626px;
+        padding: 64px 230px 96px 230px!important;
+    }    
+}
+
 .heroSection {
     height: 626px;
     padding: 64px 80px 96px 80px;
@@ -6,6 +13,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 20px;
 
         .leftSide {
             h1 {
@@ -50,6 +58,7 @@
             flex-direction: column-reverse;
             align-items: center;
             justify-content: space-between;
+            gap: 0px;
 
             .leftSide {
                 margin-top: 62px;
