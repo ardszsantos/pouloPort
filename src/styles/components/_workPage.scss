@@ -75,5 +75,40 @@
 }
 
 
+@media (max-width: 1200px) {
+    .work-wrapper {
+        padding: 64px 16px;
+        
 
+        .workTitle {
+            width: 375px;
+            padding: 0px 16px;
+        }
+
+
+        .cardsArea {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                display: flex;
+                align-items: center;
+
+                .secondRow, .techBadges {
+                    width: 343px;
+                    flex-wrap: wrap;
+
+                    > p {
+                        width: 343px;
+                    }
+                    
+                }
+                
+                img {
+                }
+            }
+        }
+    }
+    
+}
 
