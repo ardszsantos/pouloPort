@@ -1,3 +1,4 @@
+import { Footer } from './components/footer'
 import { Navbar } from './components/navBar'
 import { HeroPage } from './pages/heroPage'
 import { JourneyPage } from './pages/journey'
@@ -14,6 +15,7 @@ function App() {
       <JourneyPage/>
       <WorkPage/>
       <TestimonialsPage/>
+      <Footer/>
     </>
   )
 }
