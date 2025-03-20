@@ -7,7 +7,7 @@ export const TestimonialsPage: React.FC = () => {
 
 
     return (
-        <section className="testimonialsWrapper">
+        <section id="testimonials" className="testimonialsWrapper">
             <h1>CLIENTS LOVE</h1>
             <div className="costumerMessage">
                 <div className="costumerBlock">
