@@ -8,7 +8,7 @@ export const JourneyPage: React.FC = () => {
 
 
     return (
-        <section className="journeySection">
+        <section id="journey" className="journeySection">
             <h1>A BIT 'BOUT MY JOURNEY</h1>
             <p className="firstP">
             I’m a freelance frontend developer based in Ahmedabad, India, with almost 6 years of experience. My journey started at an MNC, then I moved to a startup where I had the chance to build some cool projects that taught me a ton. I began with JavaScript, built apps using Angular, and then switched to React, where I had the opportunity to work on projects from scratch that really shaped my skills in JS and UI development.
