@@ -33,7 +33,7 @@ const workData2 = {
 export const WorkPage: React.FC = () => {
 
     return (
-        <div className="work-wrapper">
+        <section id="work" className="work-wrapper">
             <div className="workTitle">
                 <h1>WORK</h1>
                 <p>Check out some of my recent work – cool products I’ve been part of, built using the latest tech and libraries to create something awesome!</p>
@@ -45,6 +45,6 @@ export const WorkPage: React.FC = () => {
                 <WorkCard {...workData}/>
 
             </div>
-        </div>
+        </section>
     );
 };
