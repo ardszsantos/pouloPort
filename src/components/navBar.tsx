@@ -7,15 +7,15 @@ export const Navbar: React.FC = () => {
 
     return (
         <header>
-            <p>PEDRO POULOS</p>
+            <p><a href="#home">PEDRO POULOS</a></p>
             <div className="mobileMenuIcon">
                 <Hamburger toggled={isOpen} toggle={setOpen} size={24} />
             </div>
             <nav className={isOpen ? "navOpen" : "navClosed"}>
-                <a href="#">Work</a>
-                <a href="#">Journey</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Contact</a>
+                <a href="#work">Work</a>
+                <a href="#journey">Journey</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
             </nav>
             <p className="navLastP">Beyond the Bio</p>
         </header>
