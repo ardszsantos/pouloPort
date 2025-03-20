@@ -9,7 +9,7 @@ export const HeroPage: React.FC = () => {
 
 
     return (
-        <section className="heroSection">
+        <section id="home" className="heroSection">
             <div className="heroWrapper">
                 <div className="leftSide">
                     <p>Heyyo 🫳, I’m </p>
