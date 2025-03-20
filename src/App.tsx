@@ -1,5 +1,6 @@
 import { Footer } from './components/footer'
 import { Navbar } from './components/navBar'
+import { ContactPage } from './pages/contact'
 import { HeroPage } from './pages/heroPage'
 import { JourneyPage } from './pages/journey'
 import { TestimonialsPage } from './pages/testimonials'
@@ -15,6 +16,7 @@ function App() {
       <JourneyPage/>
       <WorkPage/>
       <TestimonialsPage/>
+      <ContactPage/>
       <Footer/>
     </>
   )
